@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{B70FF3C3-B15F-4026-ADA0-86D8F0E2AFBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{27ED8D81-5F5F-44D3-80A4-9D729CF85554}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{4230D19B-B0F5-41C2-B426-7C7DCE7327EF}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\WebApplication-WAWS-dev.json = PublishScripts\Configurations\WebApplication-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{84E02855-90B7-491D-874C-325C115982E0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B70FF3C3-B15F-4026-ADA0-86D8F0E2AFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70FF3C3-B15F-4026-ADA0-86D8F0E2AFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70FF3C3-B15F-4026-ADA0-86D8F0E2AFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70FF3C3-B15F-4026-ADA0-86D8F0E2AFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4230D19B-B0F5-41C2-B426-7C7DCE7327EF} = {27ED8D81-5F5F-44D3-80A4-9D729CF85554}
+	EndGlobalSection
+EndGlobal
